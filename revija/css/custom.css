@@ -1,0 +1,275 @@
+.content {
+    margin:0;
+}
+
+.comment {
+    box-shadow: 0 0 2px black;
+	font-size:12px;
+}
+
+.contact_form input[type="text"], .contact_form textarea {
+    color:rgb(255,103,51)
+}
+
+.section_title_medium_var2{
+	font-family:arial !important;
+	text-decoration:underline;
+	font-size:18px !important;
+}
+
+.tabs.variation_2 .tabs_content > [id*="tab-"] ul li:first-child{
+    margin-top:10px;
+}
+
+.tabs.variation_2 .tabs_content > [id*="tab-"] ul li{
+    margin-top: 10px;
+}
+
+.tabs.variation_2 .tabs_conrainer .tabs_nav li a {
+	color:white !important;
+}
+
+.event_date,
+.event_info,
+.event_activity{
+  font-size: 12px;
+  color: #7e7e7e;
+}
+
+.footer-main{
+    border-top:0;
+    box-shadow:0 0 3px black;
+    background-color:white;
+	margin-top:50px;
+}
+
+.footer-main.footer .footer_bottom_part{
+    background-color:whitesmoke
+}
+
+.footer .footer_bottom_part{
+    color:black;
+}
+
+.go-to-top{
+    bottom:20px;
+}
+
+.tabs.variation_2 .tabs_conrainer .tabs_nav li{
+    margin-right:0;
+}
+
+.scale_image_container{
+    box-shadow: 0 0 5px black;
+}
+
+#alertDangerKullaniciGiris{
+	color:#843534;
+	border:1px solid #EBCCD1 !important;
+	background-color:#F2DEDE;
+}
+
+
+/* genel menü renk */
+
+.main_menu > ul > li:hover > a,
+.main_menu > ul > li.current > a,
+.main_menu > ul > li[class*="current_"] > a{
+    background: #ff680d;
+    color: #fff;
+}
+
+.main_menu > ul > li.current > a{
+    border-bottom: 2px solid #ff680d;
+}
+
+
+/* anasayfa , giriþ, çýkýþ, panel, kaydol renkler */
+
+.main_menu.menu_var2 > ul > li > .anasayfa{
+    border-bottom: 2px solid #ff680d;
+}
+
+ .giris-menu{
+    border-bottom: 2px solid #ff680d;
+	background: #ff680d;
+    color: #fff !important;
+ }
+ 
+ .cikis-menu{
+    border-bottom: 2px solid #ec2913;
+	background: #ec2913;
+    color: #fff !important;
+}
+ 
+ @media only screen and (max-width: 992px) /* mobildeki menünün arka planýný sil */
+{
+	.giris-menu,
+	.cikis-menu,
+	.kaydol-menu,
+	.panel-menu{
+		background: none;
+	}
+}
+
+ /* iþ hayatý renkler */
+
+ .ishayati-menu{
+     border-bottom: 2px solid #13b7ff;
+ }
+
+.main_menu.menu_var2 > ul > li:hover > .ishayati-menu,
+.button.ishayati,
+.ishayati-title .ui-tabs-anchor{
+    background: #13b7ff !important;
+}
+
+.ishayati-title{
+    border-top: 1px solid #13b7ff !important;
+}
+
+.ishayati-title .section_title {
+    color: #13b7ff !important;
+}
+
+ /* siyaset renkler */
+
+ .siyaset-menu{
+     border-bottom: 2px solid #7DB1DA;
+ }
+
+.main_menu.menu_var2 > ul > li:hover > .siyaset-menu,
+.button.siyaset,
+.siyaset-title .ui-tabs-anchor{
+    background: #7DB1DA !important;
+}
+
+.siyaset-title{
+    border-top: 1px solid #7DB1DA !important;
+}
+
+.siyaset-title .section_title {
+    color: #7DB1DA !important;
+}
+
+/* ekonomi renkler */
+
+ .ekonomi-menu{
+     border-bottom: 2px solid #D59482;
+ }
+
+.main_menu.menu_var2 > ul > li:hover > .ekonomi-menu,
+.button.ekonomi,
+.ekonomi-title .ui-tabs-anchor{
+    background: #D59482 !important;
+}
+
+.ekonomi-title{
+    border-top: 1px solid #D59482 !important;
+}
+
+.ekonomi-title .section_title {
+    color: #D59482 !important;
+}
+
+/* spor renkler */
+
+ .spor-menu{
+     border-bottom: 2px solid #854ec2;
+ }
+
+.main_menu.menu_var2 > ul > li:hover > .spor-menu,
+.button.spor,
+.spor-title .ui-tabs-anchor{
+    background: #854ec2 !important;
+}
+
+.spor-title{
+    border-top: 1px solid #854ec2 !important;
+}
+
+.spor-title .section_title {
+    color: #854ec2 !important;
+}
+
+/* saðlýk renkler */
+
+ .saglik-menu{
+     border-bottom: 2px solid #feb41c;
+ }
+
+.main_menu.menu_var2 > ul > li:hover > .saglik-menu,
+.button.saglik,
+.saglik-title .ui-tabs-anchor{
+    background: #feb41c !important;
+}
+
+.saglik-title{
+    border-top: 1px solid #feb41c !important;
+}
+
+.saglik-title .section_title {
+    color: #feb41c !important;
+}
+
+/* yaþam renkler */
+
+ .yasam-menu{
+     border-bottom: 2px solid #ec2913;
+ }
+
+.main_menu.menu_var2 > ul > li:hover > .yasam-menu,
+.button.yasam,
+.yasam-title .ui-tabs-anchor{
+    background: #ec2913 !important;
+}
+
+.yasam-title{
+    border-top: 1px solid #ec2913 !important;
+}
+
+.yasam-title .section_title {
+    color: #ec2913 !important;
+}
+
+/* doða renkler */
+
+ .doga-menu{
+     border-bottom: 2px solid #00ada7;
+ }
+
+.main_menu.menu_var2 > ul > li:hover > .doga-menu,
+.button.doga,
+.doga-title .ui-tabs-anchor{
+    background: #00ada7 !important;
+}
+
+.doga-title{
+    border-top: 1px solid #00ada7 !important;
+}
+
+.doga-title .section_title {
+    color: #00ada7 !important;
+}
+
+/* tüm renklerden sonra temizle */
+
+@media only screen and (max-width: 992px) /* mobildeki menünün arka planýný sil */
+{
+    .main_menu.menu_var2 > ul > li:hover > .ishayati-menu,
+    .main_menu.menu_var2 > ul > li:hover > .spor-menu,
+    .main_menu.menu_var2 > ul > li:hover > .saglik-menu,
+    .main_menu.menu_var2 > ul > li:hover > .doga-menu,
+    .main_menu.menu_var2 > ul > li:hover > .yasam-menu {
+        background-color:rgba(0,0,0,0) !important;
+    }
+}
+
+
+/**/
+
+.post_text .post_theme{
+    background-color:red !important;
+}
+
+/**/
