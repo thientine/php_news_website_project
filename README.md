@@ -3,5 +3,5 @@ php project
 
 log in for panel : 
 
-id : admin
+id : admin ,,
 password : admin
